@@ -24,17 +24,31 @@ import LanguageProvider from 'containers/LanguageProvider';
 
 // Load the favicon, the manifest.json file and the .htaccess file
 /* eslint-disable import/no-unresolved, import/extensions */
-import '!file-loader?name=[name].[ext]!./images/favicon.ico';
-import '!file-loader?name=[name].[ext]!./images/icon-72x72.png';
-import '!file-loader?name=[name].[ext]!./images/icon-96x96.png';
-import '!file-loader?name=[name].[ext]!./images/icon-128x128.png';
-import '!file-loader?name=[name].[ext]!./images/icon-144x144.png';
-import '!file-loader?name=[name].[ext]!./images/icon-152x152.png';
-import '!file-loader?name=[name].[ext]!./images/icon-192x192.png';
-import '!file-loader?name=[name].[ext]!./images/icon-384x384.png';
-import '!file-loader?name=[name].[ext]!./images/icon-512x512.png';
 import '!file-loader?name=[name].[ext]!./manifest.json';
 import 'file-loader?name=[name].[ext]!./.htaccess';
+
+import '!file-loader?name=[name].[ext]!./externals/css/media-font.css';
+import '!file-loader?name=[name].[ext]!./externals/fonts/font-awesome-4.7.0/css/font-awesome.min.css';
+import '!file-loader?name=[name].[ext]!./externals/fonts/themify/themify-icons.css';
+import '!file-loader?name=[name].[ext]!./externals/vendor/bootstrap/css/bootstrap.min.css';
+import '!file-loader?name=[name].[ext]!./externals/vendor/bootstrap/css/bootstrap.min.css.map';
+import '!file-loader?name=[name].[ext]!./externals/vendor/animate/animate.css';
+import '!file-loader?name=[name].[ext]!./externals/vendor/css-hamburgers/hamburgers.min.css';
+import '!file-loader?name=[name].[ext]!./externals/vendor/animsition/css/animsition.min.css';
+import '!file-loader?name=[name].[ext]!./externals/vendor/select2/select2.min.css';
+import '!file-loader?name=[name].[ext]!./externals/vendor/daterangepicker/daterangepicker.css';
+import '!file-loader?name=[name].[ext]!./externals/vendor/slick/slick.css';
+
+import 'file-loader?name=[name].[ext]!./externals/vendor/jquery/jquery-3.2.1.min';
+import 'file-loader?name=[name].[ext]!./externals/vendor/animsition/js/animsition.min';
+import 'file-loader?name=[name].[ext]!./externals/vendor/bootstrap/js/popper';
+import 'file-loader?name=[name].[ext]!./externals/vendor/bootstrap/js/bootstrap.min';
+import 'file-loader?name=[name].[ext]!./externals/vendor/select2/select2.min';
+import 'file-loader?name=[name].[ext]!./externals/vendor/slick/slick.min';
+import 'file-loader?name=[name].[ext]!./externals/vendor/countdowntime/countdowntime';
+import 'file-loader?name=[name].[ext]!./externals/vendor/lightbox2/js/lightbox.min';
+import 'file-loader?name=[name].[ext]!./externals/vendor/parallax100/parallax100';
+
 /* eslint-enable import/no-unresolved, import/extensions */
 
 import configureStore from './configureStore';
