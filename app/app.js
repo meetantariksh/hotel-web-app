@@ -39,6 +39,17 @@ import '!file-loader?name=[name].[ext]!./externals/vendor/select2/select2.min.cs
 import '!file-loader?name=[name].[ext]!./externals/vendor/daterangepicker/daterangepicker.css';
 import '!file-loader?name=[name].[ext]!./externals/vendor/slick/slick.css';
 
+import '!file-loader?name=[name].[ext]!./externals/fonts/themify/fonts/themify.eot';
+import '!file-loader?name=[name].[ext]!./externals/fonts/themify/fonts/themify.woff';
+import '!file-loader?name=[name].[ext]!./externals/fonts/themify/fonts/themify.ttf';
+import '!file-loader?name=[name].[ext]!./externals/fonts/themify/fonts/themify.svg';
+
+import '!file-loader?name=[name].[ext]!./externals/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot';
+import '!file-loader?name=[name].[ext]!./externals/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf';
+import '!file-loader?name=[name].[ext]!./externals/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff';
+import '!file-loader?name=[name].[ext]!./externals/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2';
+import '!file-loader?name=[name].[ext]!./externals/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg';
+
 import 'file-loader?name=[name].[ext]!./externals/vendor/jquery/jquery-3.2.1.min';
 import 'file-loader?name=[name].[ext]!./externals/vendor/animsition/js/animsition.min';
 import 'file-loader?name=[name].[ext]!./externals/vendor/bootstrap/js/popper';

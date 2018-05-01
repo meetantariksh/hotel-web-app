@@ -20,47 +20,6 @@ import next from './externals/vendor/lightbox2/images/next.png';
 
 /* eslint no-unused-expressions: 0 */
 injectGlobal`
-@font-face {
-	font-family: Montserrat-Regular;
-	src: url('${MontserratRegular}'); 
-  }
-  
-  @font-face {
-	font-family: Montserrat-Bold;
-	src: url('${MontserratBold}'); 
-  }
-  
-  @font-face {
-	font-family: Courgette-Regular;
-	src: url('${CourgetteRegular}'); 
-  }
-  
-  @font-face {
-	font-family: Poppins-Regular;
-	src: url('${PoppinsRegular}'); 
-  }
-  
-  @font-face {
-	font-family: Poppins-Medium;
-	src: url('${PoppinsMedium}'); 
-  }
-  
-  @font-face {
-	font-family: Poppins-Bold;
-	src: url('${PoppinsBold}'); 
-  }
-  
-  @font-face {
-	font-family: Poppins-Light;
-	src: url('${PoppinsLight}'); 
-  }
-  
-  @font-face {
-	font-family: NotoSans-Regular;
-	src: url('${NotoSansRegular}'); 
-  }
-  
-
 * {
 	margin: 0px; 
 	padding: 0px; 
@@ -430,7 +389,7 @@ input[type="date" i] {
 }
 
 .logo {
-  height: 150px;
+  height: 120px;
 }
 
 .logo > a{

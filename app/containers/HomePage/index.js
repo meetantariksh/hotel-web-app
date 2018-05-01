@@ -12,11 +12,25 @@
 import React from 'react';
 
 import logo from '../../externals/images/icons/logo.png';
+import { Switch, Route } from 'react-router-dom';
+
+import mainJS from '../../externals/js/main';
+import mapCustomJS from '../../externals/js/map-custom';
+import slickCustomJS from '../../externals//js/slick-custom';
+
+import LandingPage from '../LandingPageContainer';
 
 export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
+
+  componentDidMount() {
+    mainJS();
+    mapCustomJS();
+    slickCustomJS();
+  }
+
   render() {
     return (
-      <div>
+      <div className='animsition'>
         <header> 
           <div className="wrap-menu-header gradient1 trans-0-4">
             <div className="container h-full">
@@ -48,11 +62,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
                       <li>
                         <a href="about.html">About</a>
                       </li>
-
-                      <li>
-                        <a href="blog.html">Blog</a>
-                      </li>
-
+                      
                       <li>
                         <a href="contact.html">Contact</a>
                       </li>
@@ -146,6 +156,11 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
             </div>
           </div>
         </aside>
+
+        <Switch>
+          <Route exact path="/" component={LandingPage} />
+        </Switch>
+
       </div>
     );
   }
