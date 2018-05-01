@@ -62,7 +62,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
                       <li>
                         <a href="about.html">About</a>
                       </li>
-                      
+
                       <li>
                         <a href="contact.html">Contact</a>
                       </li>
@@ -160,6 +160,12 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
         <Switch>
           <Route exact path="/" component={LandingPage} />
         </Switch>
+
+        <div className="btn-back-to-top bg0-hov" id="myBtn">
+          <span className="symbol-btn-back-to-top">
+            <i className="fa fa-angle-double-up" aria-hidden="true"></i>
+          </span>
+	      </div>
 
       </div>
     );

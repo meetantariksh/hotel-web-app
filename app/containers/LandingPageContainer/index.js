@@ -11,6 +11,8 @@ import { Helmet } from 'react-helmet';
 import { compose } from 'redux';
 
 import SlidesComponent from '../../components/LandingPage/Slides';
+import WelcomeComponent from '../../components/LandingPage/WelcomeComponent';
+import IntroductionContainer from '../../components/LandingPage/IntroductionComponent';
 
 
 export class LandingPageContainer extends React.Component { // eslint-disable-line react/prefer-stateless-function
@@ -23,6 +25,8 @@ export class LandingPageContainer extends React.Component { // eslint-disable-li
         </Helmet>
 
         <SlidesComponent />
+        <WelcomeComponent />
+        <IntroductionContainer />
       </div>
     );
   }
