@@ -24,7 +24,7 @@ class IntroductionComponent extends React.Component { // eslint-disable-line rea
             </span>
 
             <h3 className="tit4 t-center p-l-15 p-r-15 p-t-3">
-              Pato Place
+              Hotel ERP
             </h3>
           </div>
 

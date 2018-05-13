@@ -18,7 +18,11 @@ import mainJS from '../../externals/js/main';
 import mapCustomJS from '../../externals/js/map-custom';
 import slickCustomJS from '../../externals//js/slick-custom';
 
+import RoomImage from '../../images/Footer/room.jpg';
+
 import LandingPage from '../LandingPageContainer';
+
+import FooterComponent from '../../components/FooterComponent';
 
 export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
 
@@ -44,27 +48,27 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
                   <nav className="menu">
                     <ul className="main_menu">
                       <li>
-                        <a href="index.html">Home</a>
+                        <a href="#">Home</a>
                       </li>
 
                       <li>
-                        <a href="menu.html">Menu</a>
+                        <a href="#">Menu</a>
                       </li>
 
                       <li>
-                        <a href="reservation.html">Reservation</a>
+                        <a href="#">Reservation</a>
                       </li>
 
                       <li>
-                        <a href="gallery.html">Gallery</a>
+                        <a href="#">Gallery</a>
                       </li>
 
                       <li>
-                        <a href="about.html">About</a>
+                        <a href="#">About</a>
                       </li>
 
                       <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="#">Contact</a>
                       </li>
                     </ul>
                   </nav>
@@ -84,31 +88,27 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
           <button className="btn-hide-sidebar ti-close color0-hov trans-0-4"></button>
           <ul className="menu-sidebar p-t-95 p-b-70">
             <li className="t-center m-b-13">
-              <a href="index.html" className="txt19">Home</a>
+              <a href="#" className="txt19">Home</a>
             </li>
 
             <li className="t-center m-b-13">
-              <a href="menu.html" className="txt19">Menu</a>
+              <a href="#" className="txt19">Menu</a>
             </li>
 
             <li className="t-center m-b-13">
-              <a href="gallery.html" className="txt19">Gallery</a>
+              <a href="#" className="txt19">Gallery</a>
             </li>
 
             <li className="t-center m-b-13">
-              <a href="about.html" className="txt19">About</a>
-            </li>
-
-            <li className="t-center m-b-13">
-              <a href="blog.html" className="txt19">Blog</a>
+              <a href="#" className="txt19">About</a>
             </li>
 
             <li className="t-center m-b-33">
-              <a href="contact.html" className="txt19">Contact</a>
+              <a href="#" className="txt19">Contact</a>
             </li>
 
             <li className="t-center">
-              <a href="reservation.html" className="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto">
+              <a href="#" className="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto">
                 Reservation
               </a>
             </li>
@@ -118,40 +118,40 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
               Gallery
             </h4>
             <div className="wrap-gallery-sidebar flex-w">
-              <a className="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-01.jpg" data-lightbox="gallery-footer">
-                <img src="images/photo-gallery-thumb-01.jpg" alt="GALLERY" />
+              <a className="item-gallery-sidebar wrap-pic-w" href="#" data-lightbox="gallery-footer">
+                <img src={RoomImage} alt="GALLERY" />
               </a>
 
-              <a className="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
-                <img src="images/photo-gallery-thumb-02.jpg" alt="GALLERY" />
+              <a className="item-gallery-sidebar wrap-pic-w" href="#" data-lightbox="gallery-footer">
+                <img src={RoomImage} alt="GALLERY" />
               </a>
 
-              <a className="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
-                <img src="images/photo-gallery-thumb-03.jpg" alt="GALLERY" />
+              <a className="item-gallery-sidebar wrap-pic-w" href="#" data-lightbox="gallery-footer">
+                <img src={RoomImage} alt="GALLERY" />
               </a>
 
-              <a className="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-05.jpg" data-lightbox="gallery-footer">
-                <img src="images/photo-gallery-thumb-05.jpg" alt="GALLERY" />
+              <a className="item-gallery-sidebar wrap-pic-w" href="#" data-lightbox="gallery-footer">
+                <img src={RoomImage} alt="GALLERY" />
               </a>
 
-              <a className="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-06.jpg" data-lightbox="gallery-footer">
-                <img src="images/photo-gallery-thumb-06.jpg" alt="GALLERY" />
+              <a className="item-gallery-sidebar wrap-pic-w" href="#" data-lightbox="gallery-footer">
+                <img src={RoomImage} alt="GALLERY" />
               </a>
 
-              <a className="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-07.jpg" data-lightbox="gallery-footer">
-                <img src="images/photo-gallery-thumb-07.jpg" alt="GALLERY" />
+              <a className="item-gallery-sidebar wrap-pic-w" href="#" data-lightbox="gallery-footer">
+                <img src={RoomImage} alt="GALLERY" />
               </a>
 
-              <a className="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-09.jpg" data-lightbox="gallery-footer">
-                <img src="images/photo-gallery-thumb-09.jpg" alt="GALLERY" />
+              <a className="item-gallery-sidebar wrap-pic-w" href="#" data-lightbox="gallery-footer">
+                <img src={RoomImage} alt="GALLERY" />
               </a>
 
-              <a className="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-10.jpg" data-lightbox="gallery-footer">
-                <img src="images/photo-gallery-thumb-10.jpg" alt="GALLERY" />
+              <a className="item-gallery-sidebar wrap-pic-w" href="#" data-lightbox="gallery-footer">
+                <img src={RoomImage} alt="GALLERY" />
               </a>
 
-              <a className="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-11.jpg" data-lightbox="gallery-footer">
-                <img src="images/photo-gallery-thumb-11.jpg" alt="GALLERY" />
+              <a className="item-gallery-sidebar wrap-pic-w" href="#" data-lightbox="gallery-footer">
+                <img src={RoomImage} alt="GALLERY" />
               </a>
             </div>
           </div>
@@ -160,6 +160,8 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
         <Switch>
           <Route exact path="/" component={LandingPage} />
         </Switch>
+
+        <FooterComponent />
 
         <div className="btn-back-to-top bg0-hov" id="myBtn">
           <span className="symbol-btn-back-to-top">

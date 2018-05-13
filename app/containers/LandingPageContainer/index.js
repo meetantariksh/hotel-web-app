@@ -13,7 +13,10 @@ import { compose } from 'redux';
 import SlidesComponent from '../../components/LandingPage/Slides';
 import WelcomeComponent from '../../components/LandingPage/WelcomeComponent';
 import IntroductionContainer from '../../components/LandingPage/IntroductionComponent';
-
+import MenuComponent from '../../components/LandingPage/MenuComponent';
+import WebsiteOffersComponent from '../../components/LandingPage/WebsiteOffersComponent';
+import ReservationComponent from '../../components/LandingPage/ReservationComponent';
+import ReviewsComponent from '../../components/LandingPage/ReviewsComponent';
 
 export class LandingPageContainer extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
@@ -27,6 +30,10 @@ export class LandingPageContainer extends React.Component { // eslint-disable-li
         <SlidesComponent />
         <WelcomeComponent />
         <IntroductionContainer />
+        <MenuComponent />
+        <WebsiteOffersComponent />
+        <ReservationComponent />
+        <ReviewsComponent />
       </div>
     );
   }
